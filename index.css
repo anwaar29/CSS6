@@ -1,0 +1,230 @@
+.BP{
+background-image: url(./shara_desert.jpg);
+max-width: 1350px;
+height: 750px;
+}
+.logo{
+    position: relative;
+    top: 30px;
+    left:100px;
+
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 24px;
+    float: right;
+    margin-right: 150px;
+}
+
+.L{
+    height: 400px;
+    color: black;
+    padding-left: 100px;
+  }
+  h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 250px;
+  }
+  p{
+    position: absolute;
+    top: 350px;
+    color: white;
+  }
+  button{
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none; position: absolute;
+    top: 450px;
+  }
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: right;
+    position:absolute;
+    top: 60px;
+    right: 80px;
+   
+}
+
+.p1{
+height: 200px;
+width: 200px;
+background-size: cover;
+background-image:url(./S1.png);
+margin: 35px;
+border-radius: 30px;
+text-align: center;
+transition-duration: 1s;
+box-sizing: border-box;
+padding: 10px;
+}
+.p1:hover{
+  transform: translateY(-20px);
+}
+.p2{
+  height: 200px;
+  width: 200px;
+  background-image: url(./pic-2.png);
+  margin: 35px;
+  border-radius: 30px;
+  text-align: center;
+  transition-duration: 1s;
+box-sizing: border-box;
+padding: 10px;
+background-size: cover;
+  }
+  .p2:hover{
+    transform: translateY(-20px);
+  }
+  .p3{
+    height: 200px;
+    width: 200px;
+    background-image: url(./pic-3.png);
+    margin: 35px;
+    border-radius: 30px;
+    text-align: center;
+    transition-duration: 1s;
+box-sizing: border-box;
+padding: 10px;
+background-size: cover;
+    }
+    .p3:hover{
+      transform: translateY(-20px);
+    }
+    .p4{
+      height: 200px;
+      width: 200px;
+      background-image: url(./pic-4.png);
+      margin: 35px;
+      border-radius: 30px;
+      text-align: center;
+      transition-duration: 1s;
+box-sizing: border-box;
+padding: 10px;
+background-size: cover;
+      }
+      .p4:hover{
+        transform: translateY(-20px);
+    }
+
+@media only screen and (min-width:300px) and (max-width:900px){
+  .BP{
+    background-image: url(./shara_desert.jpg);
+    max-width: 900px;
+    background-size: cover;
+    height: 1600PX;
+    }
+    .logo{
+        position: relative;
+        top: 30px;
+        left:40px;
+    
+    }
+    .nav{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 50px;
+        font-size: 20px;
+    }
+    
+    .L{
+        height: 300px;
+        color: black;
+        padding-left: 100px;
+      }
+      h1 {
+        font-size: 60px;
+        position: absolute;
+        top: 150px;
+      }
+      p{
+        position: absolute;
+        top: 250px;
+        color: rgb(221, 18, 18);
+      }
+      button{
+        padding: 20px 40px;
+        border-radius: 40px;
+        border: none; position: absolute;
+        top: 350px;
+        background-color: aquamarine;
+      }
+    .cont{
+        display: grid;
+        grid-template-columns:auto;
+        float: right;
+        position:absolute;
+        top: 400px;
+        left: 230px;
+       
+    }
+    
+    .p1{
+    height: 200px;
+    width: 500px;
+    background-size: cover;
+    background-image:url(./S1.png);
+    margin: 35px;
+    border-radius: 30px;
+    text-align: center;
+    transition-duration: 1s;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+    
+    .p2{
+     height: 200px;
+     width: 500px;
+      background-image: url(./pic-2.png);
+      margin: 35px;
+      border-radius: 30px;
+      text-align: center;
+      transition-duration: 1s;
+      box-sizing: border-box;
+      padding: 10px;
+      background-size: cover;
+      }
+      
+      .p3{
+        height: 250px;
+    width: 500px;
+        background-image: url(./pic-3.png);
+        margin: 35px;
+        border-radius: 30px;
+        text-align: center;
+        transition-duration: 1s;
+    box-sizing: border-box;
+    padding: 10px;
+    background-size: cover;      
+  }
+        .p4{
+          height: 250px;
+         width: 500px;
+          background-image: url(./pic-4.png);
+          margin: 35px;
+          border-radius: 30px;
+          text-align: center;
+          transition-duration: 1s;
+           box-sizing: border-box;
+    padding: 10px;
+    background-size: cover;
+          }
+          .p1:hover{
+            transform: translateY(-20px);
+          }
+          .p2:hover{
+            transform: translateY(-20px);
+          }
+                .p3:hover{
+                  transform: translateY(-20px);
+                }
+          .p4:hover{
+            transform: translateY(-20px);}
+
+
+}
